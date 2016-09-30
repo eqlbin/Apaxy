@@ -61,6 +61,19 @@ a:hover {
 	color:#9099A3;
 }
 /*------------------------------------*\
+    Header
+\*------------------------------------*/
+.server-name {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.request-uri {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+/*------------------------------------*\
     Table (directory listing)
 \*------------------------------------*/
 table {
