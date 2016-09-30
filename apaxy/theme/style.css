@@ -63,12 +63,12 @@ a:hover {
 /*------------------------------------*\
     Header
 \*------------------------------------*/
-.server-name {
+#server-name {
     text-align: center;
     font-size: 2em;
     margin-bottom: 0.5em;
 }
-.request-uri {
+#request-uri {
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 1em;
