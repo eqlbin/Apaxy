@@ -6,7 +6,7 @@
 #
 
 	# ENABLE INDEXING
-	Options +Indexes
+	Options +Indexes +Includes
 
 	# INDEX OPTIONS
 	IndexOptions +Charset=UTF-8 +FancyIndexing +IgnoreCase +FoldersFirst +XHTML +HTMLTable +SuppressRules +SuppressDescription +NameWidth=* +IconsAreLinks
@@ -16,6 +16,9 @@
 
 	# HIDE /theme DIRECTORY
 	IndexIgnore .htaccess /theme
+	
+	AddType text/html .shtml .html
+	AddOutputFilter INCLUDES .html .shtml
 
 #
 # GENERAL ICONS (BLANK, DIRECTORY, PARENT DIRECTORY)
